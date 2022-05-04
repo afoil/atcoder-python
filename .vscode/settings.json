@@ -1,5 +1,5 @@
 {
-    "python.pythonPath": ".venv/bin/python",
+    "python.defaultInterpreterPath": ".venv/bin/python",
     "files.watcherExclude": {
         "**/.venv/**": true
     },
@@ -15,5 +15,8 @@
     "editor.formatOnSave": true,
     "editor.rulers": [
         88,
-    ]
+    ],
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    }
 }
